@@ -1,16 +1,28 @@
-# pks_shop_upd
+# Программирование корпоративных систем
+Дисциплина: **Программирование корпоративных систем** <br>
+Семестр: 5 <br>
+Выполнил студент **ЭФБО-04-22 Медведев А. А.** <br>
 
-A new Flutter project.
+# Содержание работы
 
-## Getting Started
+Практическая работа №14
 
-This project is a starting point for a Flutter application.
+Клиентское приложение взаимодействует с сервером через HTTP-запросы <br>
+RESTful API: Созданы эндпоинты для управления продуктами, корзиной и избранным, включая получение, добавление, обновление и удаление данных <br>
+Добавлен сервер на FastAPI и клиент-серверная архитектура <br>
+Привязана БД к приложению. Осуществил функции взаимодействия с корзиной, связь с БД. <br>
+Привязал авторизацию firebase <br>  
+Реализован поиск (чтобы отображался список по названию) сортировка( названия и цена по убыванию/возрастанию) и фильтрация(бренд) на главном экране, а также удаление товара через карточку <br>
+Реализован вывод и лист заказов в личном кабинете из корзины, при нажатии оформить заказ из корзины данные добавляются в бд и появляются в соответствующем разделе в ЛК <br>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[SVID_20241216_170912_1.webm](https://github.com/user-attachments/assets/17e61af2-51d7-46b2-ab2f-fca63697ca08)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![image](https://github.com/user-attachments/assets/4faada01-898d-4f1b-85d8-0b366f762d66)
+
+![image](https://github.com/user-attachments/assets/71a9ae17-9638-4c81-bc6c-0e29813f393d)
+
+![image](https://github.com/user-attachments/assets/6bb36fea-2c81-4e30-9c4c-c404e1cda8da)
+
+
